@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: "#000";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Poppins, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Sora, sans-serif;
+}
+
+textarea,
+input,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.line-number {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.line-clamp-1 {
+    --line-clamp: 1;
+}
+
+.line-clamp-3 {
+    --line-clamp: 1;
+}

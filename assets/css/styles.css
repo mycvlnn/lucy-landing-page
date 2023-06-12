@@ -1,1 +1,37 @@
 /* css chính tại đây */
+
+/* Header */
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 14px;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__link {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #5e6085;
+    padding: 14px 18px;
+    transition: 0.2s;
+}
+
+.navigation__link:hover {
+    color: var(--primary-color);
+    text-shadow: 0.5px 0 var(--primary-color);
+}
+
+.authenticate {
+    display: flex;
+    column-gap: 12px;
+}
+
+.authenticate__login {
+    background-color: var(--primary-color);
+    color: #fff;
+}

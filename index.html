@@ -64,7 +64,7 @@
         <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
     </head>
-    <body>
+    <body style="height: 3000px">
         <!-- Header -->
         <header class="header">
             <div class="container">
@@ -99,5 +99,96 @@
                 </div>
             </div>
         </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <figure class="hero__media">
+                        <div class="hero__img-wrap">
+                            <img src="./assets/img/cat.png" alt="" class="hero__img" />
+                            <img
+                                src="./assets/img/decor-top.svg"
+                                alt=""
+                                class="hero__decor hero__decor--top"
+                            />
+                            <img
+                                src="./assets/img/decor-bottom.svg"
+                                alt=""
+                                class="hero__decor hero__decor--bottom"
+                            />
+                        </div>
+                        <div class="hero__img-wrap hero__img-wrap--small">
+                            <img src="./assets/img/dog-3.png" alt="" class="hero__img" />
+                        </div>
+                        <!-- Hero card -->
+                        <figcaption class="hero__card">
+                            <div class="hero__card-list">
+                                <section class="hero__card-item">
+                                    <img
+                                        src="./assets/img/dog-1.png"
+                                        alt="Pet Health"
+                                        class="hero__card-img"
+                                    />
+                                    <div class="hero__card-content">
+                                        <h3 class="hero__card-title">Pet Health</h3>
+                                        <div class="hero__card-skeleton"></div>
+                                        <div
+                                            class="hero__card-skeleton"
+                                            style="--width: 39px"
+                                        ></div>
+                                    </div>
+                                </section>
+                                <div class="hero__card-divider"></div>
+                                <section class="hero__card-item">
+                                    <img
+                                        src="./assets/img/dog-2.png"
+                                        alt="Pet care"
+                                        class="hero__card-img"
+                                    />
+                                    <div class="hero__card-content">
+                                        <h3 class="hero__card-title">Pet care</h3>
+                                        <div class="hero__card-skeleton"></div>
+                                        <div
+                                            class="hero__card-skeleton"
+                                            style="--width: 39px"
+                                        ></div>
+                                    </div>
+                                </section>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <section class="hero__content">
+                        <h1 class="hero__heading">Established & Trusted Pet Care Service</h1>
+                        <p class="hero__desc">
+                            Discover a wide variety of Pawsitive services to choose from, including
+                            daycare, private walks, office duty and spa.
+                        </p>
+                        <div class="hero__cta">
+                            <button class="btn btn--primary hero__cta-btn">
+                                Book a Meet
+                                <div class="hero__cta-btn-icon">
+                                    <svg
+                                        width="5"
+                                        height="6"
+                                        viewBox="0 0 5 6"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1.48584 0.5L3.98584 3L1.48584 5.5"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </div>
+                            </button>
+                            <a href="#!" class="hero__cta-link"> Schedule a Call </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

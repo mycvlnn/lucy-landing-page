@@ -26,6 +26,24 @@ h6 {
     font-family: Sora, sans-serif;
 }
 
+.heading {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.19;
+    color: var(--primary-color);
+}
+
+.description {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #656689;
+}
+
+.heading + .description {
+    margin-top: 24px;
+}
+
 textarea,
 input,
 select,

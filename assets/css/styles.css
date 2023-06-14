@@ -158,10 +158,6 @@
 
 .hero__desc {
     margin-top: 24px;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.88;
-    color: #656689;
     max-width: 391px;
 }
 
@@ -197,4 +193,119 @@
     line-height: 1;
     text-decoration-line: underline;
     color: var(--primary-color);
+}
+
+/* About section */
+.about {
+    margin-top: 77px;
+    padding: 53px 0;
+}
+
+.about__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 200px;
+}
+
+.about__heading {
+    max-width: 446px;
+}
+
+.about__checklist {
+    margin-top: 54px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px 36px;
+}
+
+.about__checklist-item {
+    display: flex;
+    align-items: center;
+}
+
+.about__checklist-checkbox {
+    width: 24px;
+    height: 24px;
+    background: #ff5d31;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.about__checklist-label {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #48496a;
+    white-space: nowrap;
+}
+
+.about__media {
+    width: 494px;
+    height: 559px;
+    display: flex;
+}
+
+.about__media-wrap {
+    align-self: flex-end;
+    width: 494px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+    box-shadow: 11px 18px 65px rgba(255, 155, 121, 0.12);
+    position: relative;
+}
+
+.about__img {
+    position: absolute;
+    height: 559px;
+    width: 100%;
+    object-fit: cover;
+    align-self: flex-end;
+    bottom: 0;
+}
+
+.about__decor-rain {
+    position: absolute;
+    top: -66px;
+    right: -55px;
+    z-index: -1;
+}
+
+.about__experience {
+    position: absolute;
+    width: 136px;
+    background: #5bd6e2;
+    box-shadow: -15px 26px 48px rgba(85, 240, 255, 0.17);
+    border-radius: 10px;
+    left: -92px;
+    top: -70px;
+    padding: 26px 32px;
+}
+
+.about__decor-leg {
+    position: absolute;
+    top: -38px;
+    right: -38px;
+}
+
+.about__experience-age {
+    font-weight: 700;
+    font-size: 4.2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.about__experience-label {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.43;
+    text-align: center;
+    color: #c6f4f9;
+    text-align: center;
+    display: inline-block;
 }

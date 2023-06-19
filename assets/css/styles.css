@@ -448,3 +448,118 @@
     border-radius: 999px;
     margin-top: 5px;
 }
+
+/* Service section */
+.services {
+    margin-top: 185px;
+    padding: 68px 0 100px;
+    background-color: #fff6ed;
+}
+
+.services__desc {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    text-align: center;
+    color: var(--desc-color);
+}
+
+.services__heading {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.services__content {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 86px;
+}
+
+.services-item {
+    width: 294px;
+    background: #ffffff;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    border-radius: 10px;
+    padding: 30px 28px;
+}
+
+.services-item + .services-item {
+    margin-top: 24px;
+}
+
+.services-item__title {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.services-item__title::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 20px;
+    border-radius: 99px;
+    background: linear-gradient(var(--secondary-color), #ffa187);
+}
+
+.services-item__desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #656689;
+}
+
+.services-item__link {
+    margin-top: 24px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #34396a;
+    transition: 0.3s;
+}
+
+.services-item__icon {
+    margin-left: 6px;
+}
+
+.services-item__link:hover {
+    transform: translateX(10px);
+}
+
+.services__media {
+    margin-top: 262px;
+    text-align: center;
+}
+
+.services__img-wrap {
+    position: relative;
+    width: 410px;
+    height: 350px;
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+    border-radius: 10px;
+}
+
+.services__img {
+    position: absolute;
+    width: 447px;
+    height: 621px;
+    bottom: 0;
+    left: -16px;
+}
+
+.services__cta {
+    margin-top: 45px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    height: 56px;
+    min-width: 214px;
+}

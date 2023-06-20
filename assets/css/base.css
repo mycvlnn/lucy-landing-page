@@ -105,7 +105,15 @@ button {
     font-size: 1.6rem;
     border: none;
 }
-/* Todo btn primary outline */
+
+.btn.btn-outline {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    height: 56px;
+    min-width: 182px;
+}
 
 .btn:hover {
     opacity: 0.8;

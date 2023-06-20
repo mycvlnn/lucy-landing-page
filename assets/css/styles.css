@@ -556,14 +556,8 @@
     left: -16px;
 }
 
-.staff__cta,
 .services__cta {
     margin-top: 45px;
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: var(--secondary-color);
-    border-color: var(--secondary-color);
-    height: 56px;
     min-width: 214px;
 }
 

@@ -453,7 +453,7 @@
 .services {
     margin-top: 185px;
     padding: 68px 0 100px;
-    background-color: #fff6ed;
+    background-color: var(--bg-color);
 }
 
 .staff__desc,
@@ -641,4 +641,130 @@
 .staff__cta {
     margin-top: 48px;
     min-width: 193px;
+}
+
+/* Pricing */
+.pricing {
+    padding: 86px 0;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.pricing__heading {
+    text-align: center;
+}
+
+.pricing__desc {
+    text-align: center;
+    max-width: 709px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing__switch {
+    margin-top: 38px;
+    display: inline-flex;
+    border: 1px solid #ff5b2e;
+    border-radius: 999px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.pricing__switch-btn {
+    padding: 16px 40px;
+    color: var(--secondary-color);
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.pricing__switch-btn--active {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.pricing__promotion {
+    position: absolute;
+    right: -110px;
+    top: -10px;
+}
+
+.pricing__packages {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    column-gap: 44px;
+}
+
+.package-item {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px 28px;
+    text-align: left;
+    width: 302px;
+    transition: 0.3s;
+}
+
+.package-item:hover {
+    box-shadow: 0px 20px 44px rgba(195, 108, 22, 0.06);
+}
+
+.package-item:hover .btn.package-item__btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.package-item__label {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.package-item__desc {
+    margin-top: 8px;
+    font-family: "Sora", sans-serif;
+    display: block;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #3f4065;
+}
+
+.package-item__price {
+    margin-top: 24px;
+    display: block;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 3.3rem;
+    color: var(--primary-color);
+}
+
+.btn.package-item__btn {
+    margin-top: 22px;
+    display: block;
+    width: 100%;
+    height: 44px;
+    transition: 0.3s;
+}
+
+.package-item__checklist {
+    margin-top: 24px;
+}
+
+.package-item__option {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #656689;
+    margin-bottom: 18px;
+}
+
+.package-item__option-icon {
+    margin-right: 15px;
+    color: var(--secondary-color);
+}
+
+.package-item__option-icon.disabled {
+    opacity: 0.4;
 }

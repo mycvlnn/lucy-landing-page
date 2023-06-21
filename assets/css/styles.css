@@ -768,3 +768,119 @@
 .package-item__option-icon.disabled {
     opacity: 0.4;
 }
+
+/* Testimonials section */
+.testimonials {
+    margin-top: 80px;
+}
+
+.testimonials__inner {
+    position: relative;
+}
+
+.testimonials__list {
+    display: flex;
+    overflow-x: hidden;
+    padding: 50px 0;
+}
+
+.testimonial-item {
+    display: flex;
+    align-items: center;
+    column-gap: 150px;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.testimonial-item__media {
+    width: 274px;
+    height: 350px;
+    background: #ffda54;
+    border-radius: 137px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.testimonial-item__img {
+    position: absolute;
+    width: 100%;
+    filter: drop-shadow(41px 1px 41px rgba(255, 175, 19, 0.18));
+    bottom: 0;
+    border-radius: inherit;
+}
+
+.testimonial-item__msg {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #000000;
+    max-width: 553px;
+}
+
+.testimonial-item__author {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 34px;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #282828;
+}
+
+.testimonial-item__author::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    border-radius: 99px;
+    margin-right: 8px;
+}
+
+.testimonials__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.testimonials__control:first-child {
+    border: 1.5px solid #ffd1c4;
+    background-color: transparent;
+    left: 0;
+}
+
+.testimonials__control:last-child {
+    background: var(--secondary-color);
+    box-shadow: 0px 5px 27px rgba(255, 91, 46, 0.3);
+    border: none;
+    right: 0;
+}
+
+.testimonials__pagings {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.testimonials__dot {
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+}
+
+.testimonials__dot--active {
+    width: 24px;
+    background: #ff5b2e;
+    border-radius: 4px;
+}
